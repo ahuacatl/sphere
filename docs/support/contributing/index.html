@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A collaborative database of Do-it-Yourself Biology initiatives">
+<meta http-equiv="Content-Language" content="">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+<link type="text/css" rel="stylesheet" href="/assets/css/main.css">
+<title>Contributing</title>
+<link rel="canonical" href="sphere.diybio.org/docs/support/contributing/">
+<link rel="alternate" type="application/rss+xml" title="DIYbiosphere" href="sphere.diybio.org/feed.xml">
+<!-- Begin Jekyll SEO tag v2.0.0 --><title>Contributing - DIYbiosphere</title>
+<meta property="og:title" content="Contributing">
+<meta name="description" content="A collaborative database of Do-it-Yourself Biology initiatives">
+<meta property="og:description" content="A collaborative database of Do-it-Yourself Biology initiatives">
+<link rel="canonical" href="sphere.diybio.org/docs/support/contributing/">
+<meta property="og:url" content="sphere.diybio.org/docs/support/contributing/">
+<meta property="og:site_name" content="DIYbiosphere">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@DIYbiosphere">
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "headline": "Contributing",
+    "description": "A collaborative database of Do-it-Yourself Biology initiatives",
+    "url": "sphere.diybio.org/docs/support/contributing/"
+  }
+</script><!-- End Jekyll SEO tag --><!-- Google analytics tracking code --><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-78642734-1', 'auto');
+    ga('send', 'pageview');
+  </script><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css">
+<!-- Adding leaflet --><link href="https://unpkg.com/leaflet@1.0.0/dist/leaflet.css" rel="stylesheet" type="text/css">
+<!-- instantsearch --><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
+<!-- Load navgoco -->
+</head>
+<body class="container-fluid">
+    <header><nav class="navbar navbar-default navbar-fixed-top" role="navigation"><div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+      <img src="/assets/img/sphere-logo-alpha.png" class="logo"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+<li>
+          <!--<form class="search-form" onsubmit="return false;" novalidate>
+	<input id="algolia-search" name="algolia-search" class="search-field" type="search" placeholder="Search Database">
+</form>-->
+
+
+
+<form novalidate="novalidate" onsubmit="return false;" class="searchbar sbx-custom">
+  <div role="search" class="sbx-medium__wrapper">
+    <input id="algolia-search" name="algolia-search" type="search" class="sbx-custom__input" placeholder="Search your website" autocomplete="off" data-algolia-search="true"><button type="submit" title="Submit your search query." class="sbx-custom__submit">
+        <i class="fa fa-search"></i>
+    </button>
+
+  </div>
+</form>
+
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            DATABASE <span class="fa fa-chevron-down"></span></a>
+          <ul class="dropdown-menu">
+<li class="navl2">
+<a href="/database/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-list"></use></svg></span>
+    			  All</a> </li>
+    			  <li class="navl2"><a href="/database/projects/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-briefcase"></use></svg></span>
+    			  Projects</a></li>
+    			  <li class="navl2"><a href="/database/startups/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-rocket"></use></svg></span>
+    			  Startups</a></li>
+    			  <li class="navl2"><a href="/database/labs/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-flask"></use></svg></span>
+    			  Labs</a></li>
+    			  <li class="navl2"><a href="/database/incubators/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-leaf"></use></svg></span>
+    			  Incubators</a></li>
+    			  <li class="navl2"><a href="/database/groups/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-users"></use></svg></span>
+    			  Groups</a></li>
+    			  <li class="navl2"><a href="/database/networks/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-share-alt"></use></svg></span>
+    			  Networks</a></li>
+    			  <li class="navl2"><a href="/database/events/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-ticket"></use></svg></span>
+    			  Events</a></li>
+    			  <li class="navl2"><a href="/database/events/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-umbrella"></use></svg></span>
+    			  Others</a></li>
+          </ul>
+</li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            DOCUMENTATION <span class="fa fa-chevron-down"></span></a>
+            <ul class="dropdown-menu">
+<li class="navl2"><a href="/docs/introduction/welcome/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-road"></use></svg></span>
+              Introduction</a></li>
+              <li class="navl2"><a href="/docs/about/organization/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-info-circle"></use></svg></span>
+              About Us</a></li>
+              <li class="navl2"><a href="/docs/copyright/license/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-copyright"></use></svg></span>
+              Copyright</a></li>
+              <li class="navl2"><a href="/docs/basics/database/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-cubes"></use></svg></span>
+              The Basics</a></li>
+              <li class="navl2"><a href="/docs/support/contributing/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-life-ring"></use></svg></span>
+              Support</a></li>
+              <li class="navl2"><a href="/docs/tutorials/add-entry/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-book"></use></svg></span>
+              Tutorials</a></li>
+              <li class="navl2"><a href="/docs/resources/eli5/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-thumb-tack"></use></svg></span>
+              Resources</a></li>
+              <li class="navl2"><a href="/docs/resources/changelog/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-bullhorn"></use></svg></span>
+              News</a></li>
+            </ul>
+</li>
+
+        <li> | </li>
+
+        <li><a href="https://github.com/DIYbiosphere/sphere"><i class="fa fa-github"></i>
+        GITHUB</a></li>
+
+        <li><a href="https://diybio.org"><img src="https://diybiology.files.wordpress.com/2008/11/diybio-logo_980x626.gif" style="max-height:1em;">
+        DIYBIO</a></li>
+      </ul>
+</div>
+<!-- /.navbar-collapse -->
+  </div>
+<!-- /.container-fluid -->
+</nav></header><div class="main-content row">
+      <div class="docs-content">
+    <div class="col-sm-9 docs-text">
+      <div class="breadcrumbs">
+        <div>
+ <ul class="crumbs">
+<li>
+         
+           <a href="/docs/">
+             Docs
+           </a> /
+         
+       </li>
+     
+       <li>
+         
+           <a href="/docs/support/">
+             Support
+           </a> /
+         
+       </li>
+     
+       <li class="active">
+         
+           Contributing
+         
+       </li>
+     
+
+   <li class="commits"><a href="https://github.com/DIYbiosphere/sphere/blob/master/CONTRIBUTING.md" target="_blank">
+     <i class="fa fa-pencil"></i> Edit this page</a></li>
+  </ul>
+</div>
+
+  <div>
+    <ul>
+<li>   <i class="fa fa-clock-o"> </i>
+  
+  
+     4 mins read
+  
+ </li>
+      <li class="commits">Latest commit: 11 Oct 2016 </li>
+     </ul>
+</div>
+
+      </div>
+      <article><div>
+        <h1 id="contributing-guide">Contributing Guide</h1>
+<p>We really appreciate your interest in our project. We <img class="emoji" title=":heartpulse:" alt=":heartpulse:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f497.png" height="20" width="20" align="absmiddle"> contributions! By contributing, you agree to abide to our <a href="/docs/about/coc/">Code of Conduct</a> and consent to our <a href="/docs/copyright/license/">Copyright Terms</a>.</p>
+
+<p>The following is a set of guidelines for submiting <a href="#Submitting-Issues">Issues</a> and <a href="#Submitting-Pull-Requests">Pull requests</a>, and for making <a href="#Making-Commits">Commit messages</a>.</p>
+
+<p>Check out the <a href="/docs/introduction/getting-started">Getting Started</a> guide to learn how to <em>use</em> and <em>contribute</em> to the database. We also have an <a href="/docs/support/eli5-guide/">ELI5 guide</a> (Explain like I’m 5) for the utterly GitHub confused! See our <a href="/docs/tutorials/">tutorials</a>, like for <a href="/docs/tutorials/add-entry/">adding a new entry</a> or <a href="/docs/tutorials/edit-entry/">editing an entry</a>.</p>
+
+<p>If you want to make changes locally on your computer, follow the <a href="/docs/tutorials/install/">Installation Instructions</a>. <img class="emoji" title=":heart_eyes:" alt=":heart_eyes:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f60d.png" height="20" width="20" align="absmiddle"><img class="emoji" title=":computer:" alt=":computer:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" height="20" width="20" align="absmiddle"></p>
+
+<hr>
+<h3 id="table-of-contents">Table of Contents</h3>
+
+<ul>
+<li>
+<a href="#submitting-issues">Submitting Issues</a>
+    <ul>
+<li><a href="#report-a-bug">Bugs</a></li>
+      <li><a href="#make-a-suggestion">Suggestions</a></li>
+      <li><a href="#ask-a-question">Questions</a></li>
+      <li><a href="#membership-request">Membership requests</a></li>
+    </ul>
+</li>
+  <li><a href="#making-commits">Making Commits</a></li>
+  <li>
+<a href="#submiting-Pull-Requests">Submitting Pull requests</a>
+    <ul>
+<li><a href="">Merging</a></li>
+    </ul>
+</li>
+</ul>
+<hr>
+<h2 id="submitting-issues">Submitting Issues</h2>
+<p>We use <a href="https://github.com/DIYbiosphere/sphere/issues">Issues</a> to keep track of the development of the project. See our [Submit an Issue] tutorial for step-by-step instructions.</p>
+
+<h4 id="before-submitting">Before Submitting</h4>
+<p>Please consider the following before submitting a new issue:</p>
+
+<ul>
+<li>
+<strong>Avoid making <a href="/docs/support/workflow/#removing-duplicates">duplicates</a></strong>: Do a search on the project’s issues to check whether someone has submitted the same or a similar issue. You can <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> to <a href="/docs/support/workflow/#adding-reactions">vote</a> for an issue, like an enhancement or a feature request.</li>
+  <li>
+<strong>[Organize] new issues</strong>: Members are encouraged to apply <a href="/docs/support/workflow/#labels">labels</a>, <a href="/docs/support/workflow/#milestones">milestones</a>, and <a href="/docs/support/workflow/#boards">boards</a> to their own issues and new issues from contributors.</li>
+</ul>
+<h3 id="report-a-bug">Report a bug</h3>
+<p>A bug <img class="emoji" title=":bug:" alt=":bug:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f41b.png" height="20" width="20" align="absmiddle"> is an error that produces unexpected or undesired results. Follow these guidelines when submitting:</p>
+
+<ul>
+<li>Describe the problem and how you encountered it</li>
+  <li>If appropriate, include your operating system and version, browser and version, other software, etc.</li>
+  <li>Describe how it should work instead</li>
+  <li>Provide as much useful visual content as you can ([screenshots] and [screencaptures])</li>
+</ul>
+<h3 id="make-a-suggestion">Make a suggestion</h3>
+<p>Share with us a suggestion for a new feature or an enhancement. Please follow these guidelines when submitting:</p>
+
+<ul>
+<li>Describe as much as possible what your idea is</li>
+  <li>Describe how it would work or how it would look like</li>
+  <li>Share examples and references and include links, images, and GIFs.</li>
+</ul>
+<h3 id="ask-a-question">Ask a question</h3>
+<p>Make sure that your title has a <code class="highlighter-rouge">?</code> question mark. You can also asks questions in our [Gitter chatroom], in our [Slack channels] or direct message to a member in either platform. You can freely enter the chatroom and you can <a href="https://diybiosphere.herokuapp.com/">request an invite</a> to our Slack team.</p>
+
+<p>Make sure to check out our <a href="/docs/support/faq/">FAQs</a> for a list of common questions.</p>
+
+<h3 id="membership-request">Membership request</h3>
+<p>Submit a new issue with the Title: ‘Membership request’ and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to any <a href="/docs/about/community/#teams">Teams</a>.</p>
+
+<p>As a <a href="/docs/about/community/#member">member</a> of the <a href="/docs/about/organization/">DIYbiosphere organization</a> in GitHub, you enjoy more access permissions to the project!</p>
+
+<h3 id="report-a-broken-link">Report a broken link</h3>
+<p>Didn’t find the page you were looking for? If you know how to fix it, please go ahead and do so. If not, then please submit a new issue with the Title ‘Broken link’. In the Comment section please:</p>
+
+<ul>
+<li>note the name of the page you were at before you encountered the 404 Error</li>
+  <li>specify the name of the link you clicked that lead to the 404 page</li>
+  <li>copy and paste the URL of the 404 Error page</li>
+</ul>
+<h2 id="making-commits">Making Commits</h2>
+<p>Good commits speed the reviewing process and facilitate tracking past changes. If you are making many changes that are unrelated, or your commit title has the word ‘and’, split the commits! Please follow these guidelines for your commit messages:</p>
+
+<ol>
+<li>
+<strong>Title</strong>: Describe the change and why it was necessary. Use imperative (like ‘Add’ not ‘Added’), Capitalize first letter, don’t end with period, and limit to 50 characters.</li>
+  <li>
+<strong>Comments</strong>: Describe in further detail <em>why</em> the change was made and <em>how</em>. If addressing an Issue link to it!</li>
+</ol>
+<h2 id="submitting-pull-requests">Submitting Pull Requests</h2>
+<p>When you are ready to merge your work, submit a Pull Request (PR) for review of our fork or branch <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20" align="absmiddle"> See our [submitting a pull request] tutorial for step-by-step instructions.</p>
+
+<h4 id="before-you-submit-a-pull-request">Before you submit a Pull Request</h4>
+<p>Please consider the following before submitting a new PR:</p>
+
+<ul>
+<li>
+<strong>Merge conflicts</strong>: conflicts are more common when working locally.</li>
+  <li>
+<strong>[Organize] new PRs</strong>: Members are encouraged to apply <a href="/docs/support/workflow/#labels">labels</a>, <a href="/docs/support/workflow/#milestones">milestones</a>, and <a href="/docs/support/workflow/#boards">boards</a> to their own PR and new PRs from contributors.</li>
+</ul>
+<h3 id="merging">Merging</h3>
+<p>If your PR does not pass the Travis build DO NOT merge! Check either in Travis or in Github, why it did not pass… make changes to your repository to fix these. Please also fix changes by hound. Commit these changes to your branch or fork. sync them. and wait for the checks to pass again!</p>
+
+
+      </div>
+    </article>
+</div>
+    <div class="side-nav col-sm-3">
+      
+<div role="navigation">
+  <div class="sidenav-wrapper">
+  <div class="input-group docsearch">
+    <input id="docsearch" type="search" name="docsearch" class="form-control search-input" aria-label="..." placeholder="Search Documentation"><div class="input-group-btn">
+      <button class="btn btn-default btn-search" type="button"><i class="fa fa-search"></i></button>
+    </div>
+  </div>
+
+
+
+  <div class="nav-panel panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="folding-buttons">
+
+        <a href="#"><button class="openall" data-toggle="tooltip" data-placement="top" title="Unfold All">
+        <span style="cursor:pointer"><span><svg class="icons"><use xlink:href="/assets/icons.svg#oi-unfold"></use></svg></span></span></button> </a>
+        <a href="#"><button class="closeall" data-toggle="tooltip" data-placement="top" title="Fold all">
+        <span style="cursor:pointer"><span><svg class="icons"><use xlink:href="/assets/icons.svg#oi-fold"></use></svg></span></span></button> </a>
+
+    </div>
+
+<!-- Introduction -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="introH">
+               <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#introP" aria-expanded="false" aria-controls="introP">
+                  <span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-road"></use></svg></span>
+                INTRODUCTION</a>
+              </h4>
+
+          </div>
+          <div id="introP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="introH">
+              <div class="panel-body">
+                <ul>
+<li>
+                    <a href="/docs/introduction/welcome/">
+                    Welcome!</a>
+                  </li>
+                  <li>
+                    <a href="/docs/introduction/overview/">
+                    Overview</a>
+                  </li>
+                  <li>
+                    <a href="/docs/introduction/getting-started/">
+                    Getting Started</a>
+                  </li>
+                </ul>
+</div>
+          </div>
+      </div>
+<!-- About -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="aboutH">
+               <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#aboutP" aria-expanded="false" aria-controls="aboutP">
+                  <span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-info-circle"></use></svg></span>
+                ABOUT US</a>
+</h4>
+          </div>
+
+          <div id="aboutP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="aboutH">
+              <div class="panel-body">
+                <ul>
+<li>
+                    <a href="/docs/about/organization/">
+                    Organization</a>
+                  </li>
+                  <li>
+                    <a href="/docs/about/community/">
+                    Community</a>
+                  </li>
+                  <li>
+                    <a href="/docs/about/coc/">
+                    Code of Conduct</a>
+                  </li>
+                  <li>
+                    <a href="/docs/about/communication/">
+                    Communication</a>
+                  </li>
+              </ul>
+</div>
+            </div>
+        </div>
+<!-- Copyright -->
+      <div class="panel">
+            <div class="panel-heading" role="tab" id="copyrightH">
+               <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#copyrightP" aria-expanded="false" aria-controls="copyrightP">
+                  <span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-copyright"></use></svg></span>
+                COPYRIGHT</a>
+</h4>
+            </div>
+
+            <div id="copyrightP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="copyrightH">
+              <div class="panel-body">
+                <ul>
+<li>
+                    <a href="/docs/copyright/license/">
+                    Copyright Terms</a>
+                  </li>
+                  <li>
+                    <a href="/docs/copyright/cla/">
+                    Contributor Agreement</a>
+                  </li>
+                  <li>
+                    <a href="/docs/copyright/mit/">
+                    MIT License</a>
+                  </li>
+                  <li>
+                    <a href="/docs/copyright/cc0/">
+                    CC0 Dedication</a>
+                  </li>
+                </ul>
+</div>
+            </div>
+          </div>
+<!-- Basics -->
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="basicsH">
+          <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#basicsP" aria-expanded="false" aria-controls="basicsP">
+            <span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-cubes"></use></svg></span>
+          THE BASICS</a>
+</h4>
+
+          </div>
+          <div id="basicsP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="basicsH">
+              <div class="panel-body">
+                <ul>
+<li>
+                    <a href="/docs/basics/database/">
+                    Database</a>
+                  </li>
+                  <li>
+                    <a href="/docs/basics/development/">
+                    Development</a>
+                  </li>
+                  <li>
+                    <a href="/docs/basics/documentation/">
+                    Documentation</a>
+                  </li>
+                  <li>
+                    <a href="/docs/basics/design/">
+                    Design</a>
+                  </li>
+                </ul>
+</div>
+          </div>
+      </div>
+<!-- Support -->
+      <div class="panel">
+            <div class="panel-heading" role="tab" id="supportH">
+               <h4 class="panel-title">
+                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#supportP" aria-expanded="false" aria-controls="supportP">
+                   <span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-life-ring"></use></svg></span>
+                   SUPPORT
+                 </a>
+               </h4>
+             </div>
+
+              <div id="supportP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="supportH">
+                <div class="panel-body">
+                  <ul>
+<li>
+                      <a href="/docs/support/contributing/">
+                      Contributing Guide</a>
+                    </li>
+                    <li>
+                      <a href="/docs/support/workflow/">
+                      Workflow</a>
+                    </li>
+
+                    <li>
+                      <a href="/docs/support/eli5/">
+                      ELI5 Guide</a>
+                    </li>
+
+                    <li>
+                      <a href="/docs/support/faq/">
+                      FAQ</a>
+                    </li>
+                    <li>
+                      <a href="/docs/support/help/">
+                      Getting Help</a>
+                    </li>
+                  </ul>
+</div>
+              </div>
+            </div>
+<!-- Tutorials -->
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="tutorialsH">
+         <h4 class="panel-title">
+           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tutorialsP" aria-expanded="false" aria-controls="tutorialsP">
+             <span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-book"></use></svg></span>
+             Tutorials
+           </a>
+         </h4>
+        </div>
+
+        <div id="tutorialsP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tutorialsH">
+          <div class="panel-body">
+            <ul>
+<li>
+                <a href="/docs/tutorials/writing-entries/">
+                Writing Entries</a>
+              </li>
+              <li>
+                <a href="/docs/tutorials/atom/">
+                Using Atom</a>
+              </li>
+              <li>
+                <a href="/docs/tutorials/github/">
+                Using GitHub</a>
+              </li>
+              <li>
+                <a href="/docs/tutorials/github-desktop/">
+                Installation
+                </a>
+              </li>
+              <li>
+
+              </li>
+            </ul>
+</div>
+        </div>
+      </div>
+<!-- Resources -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="resourcesH">
+               <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#resourcesP" aria-expanded="false" aria-controls="resourcesH">
+            <span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-thumb-tack"></use></svg></span>
+            RESOURCES
+          </a>
+        </h4>
+
+          </div>
+          <div id="resourcesP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="resourcesH">
+              <div class="panel-body">
+                <a href="/docs/resources/glossary/">
+                Sphere Glossary</a><br><a href="/docs/resources/getting-started/">
+                Type of Hints</a><br><a href="/docs/resources/markdown/">
+                Markdown Syntax</a><br><a href="/docs/resources/liquid/">
+                Jekyll Syntax</a><br>
+</div>
+          </div>
+      </div>
+<!-- News -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="headingThree">
+               <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <span><svg class="icons"><use xlink:href="/assets/icons.svg#fa-bullhorn"></use></svg></span>
+            NEWS
+          </a>
+        </h4>
+
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                <a href="/docs/news/blog/">
+                Blog</a><br><a href="/docs/news/roadmap/">
+                Roadmap</a><br><a href="/docs/news/changelog/">
+                Changelog</a><br>
+</div>
+          </div>
+      </div>
+
+
+  </div>
+</div>
+</div>
+
+    </div>
+  </div>
+
+    </div>
+
+    <footer class="row footer"><div class="row badges">
+    <div class="center-content">
+    <ul class="list-unstyled">
+<li><a href="https://github.com/DIYbiosphere/sphere"><img src="https://img.shields.io/github/stars/diybiosphere/sphere.svg?style=social&amp;label=Star&amp;maxAge=2592000" alt="Star diybiosphere/sphere!"></a></li>
+      <li><a href="https://github.com/DIYbiosphere/sphere"><img src="https://img.shields.io/github/forks/diybiosphere/sphere.svg?style=social&amp;label=Fork&amp;maxAge=2592000" alt="Fork diybiosphere/sphere!"></a></li>
+      <li><a href="https://gratipay.com/DIYbiosphere/"><img src="https://img.shields.io/gratipay/DIYbiosphere.svg?style=social&amp;label=Donate&amp;maxAge=2592000" alt="Donate to us!"></a></li>
+      <li class="slackin"><script src="https://diybiosphere.herokuapp.com/slackin.js" async defer></script></li>
+      <li><a href="https://twitter.com/DIYbiosphere"><img src="https://img.shields.io/twitter/follow/diybiosphere.svg?style=social&amp;label=Follow&amp;maxAge=2592000" alt="Follow @diybiosphere"></a></li>
+    </ul>
+</div>
+  </div>
+
+
+  <div class="row help-links list-unstyled">
+    <div class="center-content">
+    <div class="col-sm-3 col-xs-6">
+      <ul>
+<li class="link-title">DIYBIOSPHERE</li>
+        <li> <a href="/docs/introduction/overview/">Overview</a>
+</li>
+        <li> <a href="/docs/news/roadmap/">Roadmap</a>
+</li>
+        <li> <a href="/docs/about/organization">Organization</a>
+</li>
+        <li> <a href="/docs/about/community">Community</a>
+</li>
+      </ul>
+</div>
+    <div class="col-sm-3 col-xs-6">
+      <ul>
+<li class="link-title">DATABASE</li>
+        <li> <a href="/docs/introduction/getting-started/">Getting Started!</a>
+</li>
+        <li> <a href="/docs/basics/database/#collection-of-entries">Entry Collections</a>
+</li>
+        <li> <a href="/docs/basics/database/#data-fields">Typology of Initiatives</a>
+</li>
+        <li> <a href="/docs/basics/database/#data-fields">Data Fields</a>
+</li>
+      </ul>
+</div>
+    <div class="col-sm-3 col-xs-6">
+      <ul>
+<li class="link-title">CONTRIBUTE</li>
+        <li> <a href="/docs/support/contributing">Contributing Guide</a>
+</li>
+        <li> <a href="/docs/tutorials/add-entry">Adding a New Entry</a>
+</li>
+        <li> <a href="/docs/tutorials/edit-entry">Editing an Entry</a>
+</li>
+        <li> <a href="https://github.com/DIYbiosphere/sphere/issues">Jump into our Issues</a>
+</li>
+      </ul>
+</div>
+    <div class="col-sm-3 col-xs-6">
+      <ul>
+<li class="link-title">CONNECT</li>
+        <li><a href="/docs/support/contributing/#membership-request">Join Us!</a></li>
+        <li><a href="/docs/news/blog">Read our Blog</a></li>
+        <li>
+<a href="https://diybiosphere.herokuapp.com/"></a> Get invite to Slack</li>
+        <li class="footer-socials">
+            <a href="https://github.com/DIYbiosphere/sphere"><span><svg class="icons"><use xlink:href="/assets/icons.svg#octoface"></use></svg></span></a>
+            <a href="https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link"><span><svg class="icons"><use xlink:href="/assets/icons.svg#gitter"></use></svg></span> </a>
+            <a href="https://diybiosphere.slack.com/messages/general/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#slack"></use></svg></span></a>
+            <a href="https://twitter.com/DIYbiosphere"><span><svg class="icons"><use xlink:href="/assets/icons.svg#twitter"></use></svg></span></a>
+            <a href="https://gratipay.com/DIYbiosphere/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#gratipay"></use></svg></span></a>
+        </li>
+      </ul>
+</div>
+  </div>
+</div>
+
+  <div class="row legal-footer">
+    <div class="center-content">
+       <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><span><svg class="icons"><use xlink:href="/assets/icons.svg#cc"></use></svg></span><span><svg class="icons"><use xlink:href="/assets/icons.svg#cc0"></use></svg></span></a>
+        Except where <a href="/docs/tutorials/noting-copyright/">otherwise noted</a>, content on this site is dedicated to the public domain
+        |
+         <a href="/docs/copyright/license/">Terms of (re)Use</a>
+         |
+         <a href="/docs/copyright/cla/">Contributor Terms</a>
+         |
+         <a href="/docs/about/coc/">Code of Conduct</a>
+         |
+         <a href="/docs/support/faq/">FAQ</a>
+
+    </div>
+    </div>
+
+
+</footer><!-- used across all pages --><!--<script src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load('search', '1', {style: google.loader.themes.MINIMALIST});
+        google.setOnLoadCallback(function(){
+          new google.search.CustomSearchControl('002058816176939038659:qw61inx0ugu').draw('cse');
+        }, true);
+    </script>--><script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script><script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script><script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script><!--<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>--><script src="https://unpkg.com/leaflet@1.0.0/dist/leaflet-src.js"></script><!-- Embeded Gitter chat --><script>((window.gitter = {}).chat = {}).options = { room: 'DIYbiosphere/sphere' };</script><script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script><script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script><script type="text/javascript" src="/assets/js/main.js"></script>
+</body>
+</html>

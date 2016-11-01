@@ -1,0 +1,1214 @@
+{
+  "database": [
+    
+      {
+        "url": "/database/projects/BioDisplay-NL",
+        "title": "Biodisplay Nl",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "projects",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/projects/DIYbiosphere-ZZ",
+        "title": "DIYbiosphere",
+        "since": "2016",
+        "type": "Non-profit",
+        "city": "Geneva",
+        "state": "",
+        "country": "Switzerland",
+        "host": {"name":"DIYbio.org","biosphere":"http://sphere.diybio.org/networks/diybio.org-US","web":"https://diybio.org"},
+        "region": "",
+        "collection": "projects",
+        "tags": "database, open-source, software, and website"
+      },
+    
+      {
+        "url": "/database/projects/OpenGenX-UK",
+        "title": "Opengenx Uk",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "projects",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/projects/RoninGenetics-US",
+        "title": "Roningenetics Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "projects",
+        "tags": ""
+      },
+    
+    
+      {
+        "url": "/database/groups/BeInToBiohacking-IT",
+        "title": "Beintobiohacking It",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/BioHackSyd-AU",
+        "title": "Biohacksyd Au",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/BioTinkering-DE",
+        "title": "Biotinkering De",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/Biogarage-DE",
+        "title": "Biogarage De",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/BiohackersNYC-US",
+        "title": "Biohackersnyc Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/BiohackingMexico-MX",
+        "title": "Biohackingmexico Mx",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/CapCityBiohackers-US",
+        "title": "Capcitybiohackers Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/CapitalAreaBioSpace-US",
+        "title": "Capitalareabiospace Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DIYNeurotech-US",
+        "title": "Diyneurotech Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DIYbioAuckland-NZ",
+        "title": "Diybioauckland Nz",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DIYbioBuenosAires-AR",
+        "title": "Diybiobuenosaires Ar",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DIYbioChicago-US",
+        "title": "Diybiochicago Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DIYbioGroningen-NL",
+        "title": "Diybiogroningen Nl",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DIYbioIreland-IR",
+        "title": "Diybioireland Ir",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DIYbioIsrael-IL",
+        "title": "Diybioisrael Il",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DIYbioMexico-MX",
+        "title": "Diybiomexico Mx",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DIYbioPerth-AU",
+        "title": "Diybioperth Au",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DIYbioSingapore-SG",
+        "title": "Diybiosingapore Sg",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/DenverBiolabs-US",
+        "title": "Denverbiolabs Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/GeneGarage-MX",
+        "title": "Gene Garage",
+        "since": "2015",
+        "type": "",
+        "city": "Guadalajara",
+        "state": "Jalisco",
+        "country": "Mexico",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/MNDIYbio-US",
+        "title": "Mndiybio Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/ManilaBiopunk-PH",
+        "title": "Manilabiopunk Ph",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/MelbourneBiohack-AU",
+        "title": "Melbournebiohack Au",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/groups/TriDIYbio-US",
+        "title": "Tridiybio Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "groups",
+        "tags": ""
+      },
+    
+    
+      {
+        "url": "/database/labs/BioArtLaboratories-NL",
+        "title": "Bio Art Laboratores",
+        "since": "2012",
+        "type": "",
+        "city": "Eindhoven",
+        "state": "",
+        "country": "Netherlands",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": "bioart"
+      },
+    
+      {
+        "url": "/database/labs/BioDidact-US",
+        "title": "Biodidact",
+        "since": "2014",
+        "type": "",
+        "city": "Los Alamos",
+        "state": "New Mexico",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/BioFoundry-AU",
+        "title": "Bio Foundry",
+        "since": "2014",
+        "type": "",
+        "city": "Alexandria",
+        "state": "New South Wales",
+        "country": "Australia",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/BioMakersLab-PE",
+        "title": "Biomakers Lab Peru",
+        "since": "2014",
+        "type": "",
+        "city": "Lima",
+        "state": "Lima",
+        "country": "Peru",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/BioNyfiken-SE",
+        "title": "BioNyfiken",
+        "since": "2014",
+        "type": "Non-profit",
+        "city": "Stockholm",
+        "state": "",
+        "country": "Sweden",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/BioQuisitive-AU",
+        "title": "BuiQuisitive",
+        "since": "2015",
+        "type": "",
+        "city": "Brunswick",
+        "state": "Victoria",
+        "country": "Australia",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/BioSpace-CA",
+        "title": "BioSpace",
+        "since": "2013-2015",
+        "type": "",
+        "city": "Victoria",
+        "state": "British Columbia",
+        "country": "Canada",
+        "host": {"name":"Victoria Makerspace","sphere":null,"web":"http://www.makerspace.ca/cpages/home"},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/BioTehna-SI",
+        "title": "BioTehna",
+        "since": "2013",
+        "type": "",
+        "city": "Ljubljana",
+        "state": "",
+        "country": "Slovenia",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/Biocurious-US",
+        "title": "Biocurious",
+        "since": "2010",
+        "type": "Non-profit",
+        "city": "Sunnyvale",
+        "state": "California",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/BiologiGaragen-DK",
+        "title": "BiologiGaragen",
+        "since": "2010",
+        "type": "",
+        "city": "Copenhagen",
+        "state": "",
+        "country": "Denmark",
+        "host": {"name":"Labitat","sphere":null,"web":"https://labitat.dk/"},
+        "region": "",
+        "collection": "labs",
+        "tags": "hackerspace"
+      },
+    
+      {
+        "url": "/database/labs/BiologikLabs-US",
+        "title": "Biologik Labs",
+        "since": "2013",
+        "type": "",
+        "city": "Norfolk",
+        "state": "Virginia",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/Bioscope-CH",
+        "title": "Bioscope",
+        "since": "2014",
+        "type": "University",
+        "city": "Geneva",
+        "state": "",
+        "country": "Switzerland",
+        "host": {"name":"University of Geneva","sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/BosLab-US",
+        "title": "BosLab",
+        "since": "2014",
+        "type": "Non-profit",
+        "city": "Boston",
+        "state": "Massachussets",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/BricoBio-CA",
+        "title": "Bricobio",
+        "since": "2013",
+        "type": "",
+        "city": "Montreal",
+        "state": "Quebec",
+        "country": "Canada",
+        "host": {"name":"Helios Makerspace","sphere":null,"web":"http://heliosmakerspace.ca/"},
+        "region": "",
+        "collection": "labs",
+        "tags": "makerspace"
+      },
+    
+      {
+        "url": "/database/labs/BrmBiolab-CZ",
+        "title": "Brmlab",
+        "since": "",
+        "type": "Non-Profit",
+        "city": "Prague",
+        "state": "",
+        "country": "Czech Republic",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/Bugss-US",
+        "title": "Bugss",
+        "since": "2013",
+        "type": "",
+        "city": "Baltimore",
+        "state": "Maryland",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/CounterCultureLabs-US",
+        "title": "Counter Culture Labs",
+        "since": "2013",
+        "type": "Community",
+        "city": "Oakland",
+        "state": "California",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/DIYBioBCN-ES",
+        "title": "DIY Bio Barcelona",
+        "since": "2014",
+        "type": "Non-Profit",
+        "city": "Barcelona",
+        "state": "",
+        "country": "Spain",
+        "host": {"name":"MADE","sphere":null,"web":"http://made-bcn.org/"},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/DIYBioFamiLab-US",
+        "title": "DIYbio FamiLab",
+        "since": "2014",
+        "type": "",
+        "city": "Longwood",
+        "state": "Florida",
+        "country": "United States",
+        "host": {"name":"FamiLAB","sphere":null,"web":"https://familab.org/"},
+        "region": "",
+        "collection": "labs",
+        "tags": "makerspace"
+      },
+    
+      {
+        "url": "/database/labs/DIYbioBelgium-BE",
+        "title": "DIYbio Belgium",
+        "since": "",
+        "type": "Non-Profit",
+        "city": "Nivelles",
+        "state": "",
+        "country": "Belgium",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/DIYbioToronto-CA",
+        "title": "DIYbio Toronto",
+        "since": "2013",
+        "type": "",
+        "city": "Toronto",
+        "state": "Ontario",
+        "country": "Canada",
+        "host": {"name":"HackLab","sphere":null,"web":"https://hacklab.to/"},
+        "region": "",
+        "collection": "labs",
+        "tags": "hackerspace"
+      },
+    
+      {
+        "url": "/database/labs/FLab-TH",
+        "title": "F-lab",
+        "since": "",
+        "type": "",
+        "city": "Bangkok",
+        "state": "",
+        "country": "Thailand",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/GaroaOpenBiolab-BR",
+        "title": "Garoa Open BioLab",
+        "since": "2011",
+        "type": "",
+        "city": "Sao Paolo",
+        "state": "Sao Paolo",
+        "country": "Brazil",
+        "host": {"name":"Garao Hacker Clube","sphere":null,"web":"https://garoa.net.br/wiki/P%C3%A1gina_principal"},
+        "region": "",
+        "collection": "labs",
+        "tags": "hackerspace"
+      },
+    
+      {
+        "url": "/database/labs/GaudiLabs.CH",
+        "title": "GaudiLabs",
+        "since": "",
+        "type": "",
+        "city": "Lucerne",
+        "state": "",
+        "country": "Switzerland",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/GeneGarage-MX",
+        "title": "Gene Garage",
+        "since": "",
+        "type": "University",
+        "city": "Guadalajara",
+        "state": "",
+        "country": "Mexico",
+        "host": {"name":"Tecnologico de Monterrey, Campus Guadalajara","sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/Genspace-US",
+        "title": "Genspace",
+        "since": "2010",
+        "type": "Non-profit",
+        "city": "Brooklyn",
+        "state": "New York",
+        "country": "United States",
+        "host": null,
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/Hackuarium-CH",
+        "title": "Hackuarium",
+        "since": "2014",
+        "type": "",
+        "city": "Renens",
+        "state": "",
+        "country": "Switzerland",
+        "host": {"name":"UniverCite","sphere":null,"web":"http://univercity.ch/"},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/HiveBio-US",
+        "title": "HiveBio",
+        "since": "2013",
+        "type": "",
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/IndieLab-US",
+        "title": "Indie Lab RVA",
+        "since": "2012",
+        "type": "",
+        "city": "Richmond",
+        "state": "Virginia",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/LEprouvette-CH",
+        "title": "L'Eprouvette",
+        "since": "2005",
+        "type": "University",
+        "city": "Lausanne",
+        "state": "",
+        "country": "Switzerland",
+        "host": {"name":"University of Lausanne | Interface Sciences-Societe","sphere":null,"web":"http://www.unil.ch/interface/home.html"},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/LaJollaBiolab-US",
+        "title": "La Jolla Bio Lab",
+        "since": "2015",
+        "type": "",
+        "city": "La Jolla",
+        "state": "California",
+        "country": "United States",
+        "host": {"name":"La Jolla Public Library","sphere":null,"web":"http://lajollalibrary.org/"},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/LaPaillase-FR",
+        "title": "La Paillase",
+        "since": "",
+        "type": "",
+        "city": "Paris",
+        "state": "",
+        "country": "France",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/LaPaillaseSaone-FR",
+        "title": "La Paillase Saône",
+        "since": "2015",
+        "type": "",
+        "city": "Villeurbanne",
+        "state": "",
+        "country": "France",
+        "host": {"name":"La MYNE","sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/LeBiomeFablab-FR",
+        "title": "Le Biome",
+        "since": "",
+        "type": "",
+        "city": "Rennes",
+        "state": "",
+        "country": "France",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": "biomimicry"
+      },
+    
+      {
+        "url": "/database/labs/LifePatch-ID",
+        "title": "Lifepatch Id",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/LondonBiohackerspace-UK",
+        "title": "London Biohackspace",
+        "since": "2009",
+        "type": "",
+        "city": "London",
+        "state": "",
+        "country": "United Kingdom",
+        "host": {"name":"London Hackspace","sphere":null,"web":"https://london.hackspace.org.uk/"},
+        "region": "",
+        "collection": "labs",
+        "tags": "hackerspace"
+      },
+    
+      {
+        "url": "/database/labs/MadLabBiolab-UK",
+        "title": "MadLab Biolab",
+        "since": "",
+        "type": "",
+        "city": "Manchester",
+        "state": "",
+        "country": "United Kingdom",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/OpenBioLabGraz-AT",
+        "title": "Open bioLab Graz Austria",
+        "since": "2013",
+        "type": "",
+        "city": "Graz",
+        "state": "",
+        "country": "Austria",
+        "host": {"name":"Real Raum","sphere":null,"web":"https://realraum.at/wiki/doku.php?id=realraum"},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/OpenBioLabs-US",
+        "title": "Charlottesville Open Bio Labs",
+        "since": "2015",
+        "type": "Non-Profit",
+        "city": "Charlottesville",
+        "state": "Charlottesville",
+        "country": "United States",
+        "host": {"name":"The School Factory","sphere":null,"web":"http://schoolfactory.org/"},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/OpenScienceNet-CA",
+        "title": "Open Science Network",
+        "since": "2010",
+        "type": "",
+        "city": "Vancouver",
+        "state": "British Columbia",
+        "country": "Canada",
+        "host": {"name":"MakerLabs","sphere":null,"web":"http://www.makerlabs.com/"},
+        "region": "",
+        "collection": "labs",
+        "tags": "makerspace"
+      },
+    
+      {
+        "url": "/database/labs/OpenWetlab-NL",
+        "title": "Open Wetlab",
+        "since": "2012",
+        "type": "",
+        "city": "Amsterdam",
+        "state": "",
+        "country": "Netherlands",
+        "host": {"name":"Waag Society","sphere":null,"web":"http://waag.org/en"},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/PechBlenda-ES",
+        "title": "PechBlenda Lab",
+        "since": "",
+        "type": "",
+        "city": "Barcelona",
+        "state": "",
+        "country": "Spain",
+        "host": {"name":"Calafou","sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/Reagent-BE",
+        "title": "Reagent",
+        "since": "2016",
+        "type": "Non-profit",
+        "city": "Geneva",
+        "state": "",
+        "country": "Switzerland",
+        "host": "[DIYbio.org](https://diybio.org/)(https://diybio.org)",
+        "region": "Europe",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/Symbiolab-SI",
+        "title": "Symbiolab",
+        "since": "2014",
+        "type": "",
+        "city": "Maribor",
+        "state": "",
+        "country": "Slovenia",
+        "host": {"name":"Institute for Development of Advanced Applied Systems","sphere":null,"web":"http://irnas.eu/"},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/TheLAb-US",
+        "title": "The LAb",
+        "since": "2011",
+        "type": "Community",
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/TheWetlab-US",
+        "title": "The Wet Lab",
+        "since": "2013",
+        "type": "",
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States",
+        "host": {"name":"Fab Lab San Diego","sphere":null,"web":"http://www.fablabsd.org/"},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/labs/TrySciBiolab-US",
+        "title": "TrySci Community Biolabs",
+        "since": "2014",
+        "type": "Non-Profit",
+        "city": "South",
+        "state": "Missouri",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "labs",
+        "tags": ""
+      },
+    
+    
+      {
+        "url": "/database/networks/BioChanges-UK",
+        "title": "Bio",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "networks",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/networks/BioDesignFTRW-IN",
+        "title": "Biodesign for the Real World",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "networks",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/networks/DIYbio.org-US",
+        "title": "DIYbio.org",
+        "since": "2008",
+        "type": "Non-profit",
+        "city": "Boston",
+        "state": "Massachussets",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "networks",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/networks/Hackteria-CH",
+        "title": "Hackteria Ch",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "networks",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/networks/SyntechBio-BR",
+        "title": "Syntechbio Br",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "networks",
+        "tags": ""
+      },
+    
+    
+      {
+        "url": "/database/startups/BrightWorkCoResearch-US",
+        "title": "Brightworkcoresearch Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "startups",
+        "tags": ""
+      },
+    
+    
+      {
+        "url": "/database/incubators/BerkleyBiolabs-US",
+        "title": "Berkley Biolabs",
+        "since": "2013",
+        "type": "",
+        "city": "Berkley",
+        "state": "California",
+        "country": "United States",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "incubators",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/incubators/BioTechAndBeyond-US",
+        "title": "Biotechandbeyond Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "incubators",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/incubators/HarlemBiospace-US",
+        "title": "Harlembiospace Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "incubators",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/incubators/IndieBioTech-IR",
+        "title": "Indiebiotech Ir",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "incubators",
+        "tags": ""
+      },
+    
+      {
+        "url": "/database/incubators/SFIndieBioTech-US",
+        "title": "Sfindiebiotech Us",
+        "since": "",
+        "type": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": {"name":null,"sphere":null,"web":null},
+        "region": "",
+        "collection": "incubators",
+        "tags": ""
+      }
+    
+  ]
+}
